@@ -62,7 +62,7 @@ export default function Header() {
                   <Button variant="secondary">Cancel</Button>
                 </DialogClose>
                 <Button asChild variant="destructive">
-                  <LogoutLink>Log out</LogoutLink>
+                  <LogoutLink postLogoutRedirectURL="/">Log out</LogoutLink>
                 </Button>
               </div>
             </DialogHeader>
